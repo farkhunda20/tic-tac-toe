@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  height: 300px;
+  width: 306px;
+  flex-wrap: wrap;
+}
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.clicked {
+  pointer-events: none;
+  background-color: #eee;
+}
